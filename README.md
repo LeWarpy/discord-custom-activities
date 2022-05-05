@@ -2,6 +2,8 @@
 
 Summon your own custom Activities on Discord
 
+![Screenshot](https://ifh.cc/g/AwnC1P.jpg)
+
 ## Setup
 - Node.JS v17.9 or higher
 - Create an application on `discord.com/developers/`
