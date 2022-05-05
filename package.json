@@ -1,0 +1,12 @@
+{
+  "name": "discord-custom-activities",
+  "version": "1.0.0",
+  "description": "Summon your own custom Activities on Discord",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "superagent": "^6.1.0"
+  },
+  "author": "LeWarpy",
+  "license": "GNU AGPL3"
+}
