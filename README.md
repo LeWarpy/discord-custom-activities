@@ -11,6 +11,7 @@ Summon your own custom Activities on Discord
 ```json
 "YOUR_APPLICATION_ID": "https://your_endpoint_url.net"
 ```
+- Install dependencies `npm install`
 - Run `node index.js`
 
 ## How to Use
