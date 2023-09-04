@@ -18,12 +18,13 @@ Summon your own custom Activities on Discord
 Run the following snippet in your Discord console
 ```js
 let application = "YOUR_APPLICATION_ID_HERE";
-let Dispatcher = (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m => m?.exports?.default?.isDispatching)
-Dispatcher.exports.default.dirtyDispatch({
+(webpackChunkdiscord_app.push([[''],{},e=>{mods = Object.values(e.c)}]));
+const { exports: { Z } } = mods.findLast(m => m?.exports?.Z?.dispatch);
+Z.dispatch({
   type: "DEVELOPER_TEST_MODE_AUTHORIZATION_SUCCESS",
-  applicationId: application,
-  originURL: `http://localhost:3000/launch/${application}`
-})
+  applicationId: application, // Testing Discord app
+  originURL: "http://localhost:3000/launch/${application}"
+});
 ```
 Join a voice channel and select it from the activity menu.
 
